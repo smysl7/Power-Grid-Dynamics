@@ -20,7 +20,7 @@ daily_total_power["Date"] = pd.to_datetime(daily_total_power["Date"])
 output_path = "Total_Daily_Wind_Power.csv"
 daily_total_power.to_csv(output_path, index=False)
 
-print("✅ Processing complete! First few rows of processed data:")
+print("Processing complete! First few rows of processed data:")
 print(daily_total_power.head())
 
 print(f"Data saved as: {output_path}")
