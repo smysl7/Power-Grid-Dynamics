@@ -40,7 +40,7 @@ for params in all_params:
         seasonality_mode=params['seasonality_mode'],
         yearly_seasonality=params['yearly_seasonality'],
         weekly_seasonality=params['weekly_seasonality'],
-        stan_backend="CMDSTANPY"  # 修改为 CMDSTANPY
+        stan_backend="CMDSTANPY"
     )
     
     model.fit(df)
